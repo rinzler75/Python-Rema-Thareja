@@ -1,0 +1,7 @@
+file=open("A:\\python\\chapter7\\examples\\file1.txt","rb")
+print("starting postition: ",file.tell())
+print(file.read(10))
+print("postition : ",file.tell())
+file.seek(3,1)
+print(file.tell())
+print(file.read())

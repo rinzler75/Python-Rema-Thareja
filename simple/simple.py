@@ -1,0 +1,11 @@
+num=7 #declaration for the data types not required
+amt=123.45 #python automatically understands the type of data
+code='A' #multiple types of data can be stored in single variable
+pi=3.1415926536
+population_of_india=100000000000000000
+msg="hi"
+print("NUM= "+str(num)) #python supports automatic next line with every print statement
+print("AMT = "+str(amt))
+print("CODE = "+str(code))
+print("Population of india= "+str(population_of_india))
+print("MSG = "+msg)

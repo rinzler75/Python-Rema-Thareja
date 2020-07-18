@@ -1,0 +1,11 @@
+import re #concatenating without + operator
+str1=input("Enter the first string: ")
+str2=input("Enter the second string: ")
+str3=input("Enter the third string: ")
+pat1=str1.split(" ")
+pat2=str2.split(" ")
+pat3=str3.split(" ")
+pat3.extend(pat2)
+pat3.extend(pat1)
+str3=" ".join(pat3)
+print(str3)
